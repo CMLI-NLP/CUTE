@@ -92,16 +92,11 @@ CUTE-Llama 是基于 Llama2-7B 架构开发的多语言模型，我们提供了�
 如果您使用了我们的数据集或模型，请引用我们的论文：
 
 ```bibtex
-@inproceedings{zhuang-sun-2025-cute,
-    title = "{CUTE}: A Multilingual Dataset for Enhancing Cross-Lingual Knowledge Transfer in Low-Resource Languages",
-    author = "Zhuang, Wenhao  and
-      Sun, Yuan",
-    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
-    month = jan,
-    year = "2025",
-    address = "Abu Dhabi, UAE",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2025.coling-main.670/",
-    pages = "10037--10046"
+@inproceedings{zhuang2025cute,
+  title={CUTE: A Multilingual Dataset for Enhancing Cross-Lingual Knowledge Transfer in Low-Resource Languages},
+  author={Zhuang, Wenhao and Sun, Yuan},
+  booktitle={Proceedings of the 31st International Conference on Computational Linguistics},
+  pages={10037--10046},
+  year={2025}
 }
 ```
