@@ -71,6 +71,22 @@ Our human evaluation of machine translation quality shows:
 - Chinese-Uyghur translation average score: 8.5
 - Chinese-Tibetan translation average score: 8.6
 
+### Usage Notes
+
+#### Important Notes about Parallel Corpus:
+
+**1. Sentence-level Alignment Limitations**
+- As shown in the CUTE-P column of Table 2 in our paper, the four languages have slightly different line counts in their txt files
+- This is due to occasional inconsistencies in translation line numbers during machine translation (e.g., one line of Chinese may be translated into two lines of Uyghur)
+- Therefore, we can only achieve **document-level parallelism**, not strict **sentence-level parallelism**
+
+**2. Content Alignment Characteristics**
+- The overall parallelism of documents across the four languages reaches **99.98%**
+- Sentence order may be disrupted, but this does not affect the pre-training of large language models
+- Our experiments did not perform sentence-level parallel processing for the four languages, achieving parallelism only at the document level
+
+> 💡 **Note**: This dataset is primarily designed for multilingual pre-training rather than sentence-level translation tasks.
+
 ## 🤖 Model Description
 
 ### CUTE-Llama
